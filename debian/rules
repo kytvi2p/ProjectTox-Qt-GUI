@@ -1,0 +1,13 @@
+#!/usr/bin/make -f
+
+export QT_SELECT := qt5
+
+%:
+	dh $@ --parallel --builddirectory=build
+
+override_dh_auto_configure:
+	test -d build || mkdir $(CURDIR)/build
+	cd $(CURDIR)/build && qmake ../projectfiles/QtCreator/TOX-Qt-GUI.pro
+
+#override_dh_auto_build:
+#	$(MAKE) -C build

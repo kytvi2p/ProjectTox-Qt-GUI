@@ -1,0 +1,23 @@
+From: Kill Your TV <killyourtv@i2pmail.org>
+Date: Sun, 5 Oct 2014 18:05:00 +0000
+Subject: pointless linking
+
+QT Tox doesn't use any features of toxav or libsodium, so linking
+against them is pretty pointless.
+---
+ projectfiles/QtCreator/TOX-Qt-GUI.pro | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/projectfiles/QtCreator/TOX-Qt-GUI.pro b/projectfiles/QtCreator/TOX-Qt-GUI.pro
+index 5d69220..c2a0547 100644
+--- a/projectfiles/QtCreator/TOX-Qt-GUI.pro
++++ b/projectfiles/QtCreator/TOX-Qt-GUI.pro
+@@ -45,7 +45,7 @@ win32 {
+     macx {
+         LIBS += -L/usr/local/lib -ltoxav -ltoxcore -lsodium
+     } else {
+-        LIBS += -ltoxav -ltoxcore -lsodium
++        LIBS += -ltoxcore
+     }
+ }
+ 

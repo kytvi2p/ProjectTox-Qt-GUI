@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=QT Tox Gui
+Comment=A lightweight Tox client
+TryExec=qttox
+Exec=qttox
+Icon=qttox
+Categories=InstantMessaging;AudioVideo;Network;
+Terminal=false

@@ -1,0 +1,5 @@
+#!/usr/bin/dh-exec
+
+debian/qttox.desktop usr/share/applications
+build/TOX-Qt-GUI => usr/bin/qttox
+resources/icons/icon64.png => usr/share/pixmaps/qttox.png

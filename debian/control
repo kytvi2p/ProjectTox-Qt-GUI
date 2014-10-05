@@ -1,0 +1,22 @@
+Source: qttox
+Maintainer: Kill Your TV <killyourtv@i2pmail.org>
+Section: net
+Priority: optional
+Standards-Version: 3.9.5
+Homepage: https://github.com/tux3/qTox
+Build-Depends: debhelper (>= 9),
+ qt5-qmake,
+ qtbase5-dev,
+ libopenal-dev,
+ libopencv-dev,
+ libtoxcore-dev,
+ dh-exec
+
+Package: qttox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: QT GUI Tox client
+ A cross-platform front end for Project Tox Core written in Qt5 and C++.
+ .
+ Please note that development is very early on and the project is not ready to
+ use yet.
