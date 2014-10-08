@@ -1,3 +1,9 @@
+qttox (0.0.0+20140816.1-2) unstable; urgency=medium
+
+  * Fix desktop file's categories
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Wed, 08 Oct 2014 02:19:31 +0000
+
 qttox (0.0.0+20140816.1-1) unstable; urgency=medium
 
   * Initial release.
