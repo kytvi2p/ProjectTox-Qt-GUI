@@ -6,5 +6,5 @@ Comment=A lightweight Tox client
 TryExec=qttox
 Exec=qttox
 Icon=qttox
-Categories=InstantMessaging;AudioVideo;Network;
+Categories=InstantMessaging;Network;VideoConference;Telephony
 Terminal=false
