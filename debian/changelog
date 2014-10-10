@@ -1,3 +1,10 @@
+qttox (0.0.0+20141007.r386-2) unstable; urgency=medium
+
+  * Set URLs in debian/control
+  * Bump standards version, no source changes needed
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Fri, 10 Oct 2014 10:43:42 +0000
+
 qttox (0.0.0+20141007.r386-1ubuntu1) trusty; urgency=medium
 
   * Upload to PPA
