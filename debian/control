@@ -2,7 +2,7 @@ Source: qttox
 Maintainer: Kill Your TV <killyourtv@i2pmail.org>
 Section: net
 Priority: optional
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://github.com/tux3/qTox
 Build-Depends: debhelper (>= 9),
  qt5-qmake,
