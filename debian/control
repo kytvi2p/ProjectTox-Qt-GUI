@@ -3,7 +3,9 @@ Maintainer: Kill Your TV <killyourtv@i2pmail.org>
 Section: net
 Priority: optional
 Standards-Version: 3.9.6
-Homepage: https://github.com/tux3/qTox
+Vcs-Git: https://github.com/kytvi2p/ProjectTox-Qt-GUI.git
+Vcs-Browser: https://github.com/kytvi2p/ProjectTox-Qt-GUI
+Homepage: https://github.com/nurupo/ProjectTox-Qt-GUI
 Build-Depends: debhelper (>= 9),
  qt5-qmake,
  qtbase5-dev,
