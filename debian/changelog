@@ -1,3 +1,13 @@
+qttox (0.0.0+20141016.r387-1) unstable; urgency=medium
+
+  [ Maxim Biro ]
+  * Added IPv6 option with IPv4 fallback
+
+  [ Kill Your TV ]
+  * New upstream git snapshot
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Sun, 19 Oct 2014 12:26:05 +0000
+
 qttox (0.0.0+20141007.r386-2) unstable; urgency=medium
 
   * Set URLs in debian/control
