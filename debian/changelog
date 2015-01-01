@@ -1,3 +1,13 @@
+qttox (0.0.0+20141229.r388-1) unstable; urgency=medium
+
+  [ Maxim Biro ]
+  * Adjusted to toxcore's changes
+
+  [ Kill Your TV ]
+  * New upstream git snapshot
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Thu, 01 Jan 2015 16:10:14 +0000
+
 qttox (0.0.0+20141016.r387-1) unstable; urgency=medium
 
   [ Maxim Biro ]

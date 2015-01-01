@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9),
  qtbase5-dev,
  libopenal-dev,
  libopencv-dev,
- libtoxcore-dev,
+ libtoxcore-dev (>= 0.0.0+20141231.r3063),
  dh-exec
 
 Package: qttox
