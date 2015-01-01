@@ -1,3 +1,9 @@
+qttox (0.0.0+20141229.r388-1ubuntu1) utopic; urgency=medium
+
+  * Building for Utopic
+
+ -- Kill Your TV <killyourtv@i2pmail.org>  Thu, 01 Jan 2015 19:41:12 +0000
+
 qttox (0.0.0+20141229.r388-1) unstable; urgency=medium
 
   [ Maxim Biro ]
